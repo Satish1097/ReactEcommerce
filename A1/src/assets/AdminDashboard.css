@@ -1,0 +1,27 @@
+table{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    top: 5vh;
+}
+table tr{
+    border: 2px solid #010131;
+    background-color: bisque;
+    height: 30px;
+    width: 80%;
+}
+table tr th{
+    background-color: #010131;
+    color: white;
+}
+#Adduser{
+    width: 10%;
+    height: 45px;
+    margin-left: 45%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+tr td img{
+    overflow: hidden;
+    background-size: cover;
+}

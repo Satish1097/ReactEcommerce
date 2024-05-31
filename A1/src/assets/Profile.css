@@ -1,0 +1,80 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    top: 12vh;
+    background-color: rgba(148, 139, 139, 0.811);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .overlay .popup {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    animation: zoom-in 0.5s ease;
+  }
+  
+  @keyframes zoom-in {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .overlay .close {
+    position: relative;
+    display: flex;
+    float: right;
+    background: none;
+    border: none;
+    animation: zoom-in 0.5s ease;
+  }
+  
+  .close-btn-crt {
+    font-size: 30px;
+    margin-left: 95%;
+    color: red;
+    box-shadow: rgba(244, 240, 240, 0.795) 0px 5px 15px;
+    cursor: pointer;
+  }
+.create_btn{
+    width: 20%;
+    height: 30px;
+    margin-top: 5%;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+  
+  .popup__content h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: arial;
+    color: rgb(3, 4, 35);
+  }
+  .Profile{
+    text-align: center;
+  }
+  .Profile .image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-left: 45%;
+  }
+  .Profile .image img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 50%;
+  }

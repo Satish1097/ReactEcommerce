@@ -1,0 +1,26 @@
+.admin-Login{
+    background-color: cadetblue;
+}
+.admin-Login form{
+    height: 50vh;
+    width: 25%;
+    background-color: bisque;
+    margin: 10vh 0 0 37.5%;
+}
+.admin-Login form h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.admin-Login form input{
+    width: 70%;
+    margin-left: 15%;
+    height: 10%;
+    margin-top:10%;
+    border: 0px;
+    outline: 0;
+    background-color: transparent;
+    border-bottom: 3px solid green;
+}
+
+

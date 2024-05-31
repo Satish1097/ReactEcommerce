@@ -1,0 +1,50 @@
+{
+  "SignupData": [
+    {
+      "UserName": "BhanuPratapSingh",
+      "Mobile": "7788994455",
+      "Email": "bhanu@gmail.com",
+      "Password": "Bhanu@Pratap",
+      "image": "",
+      "id": 2
+    },
+    {
+      "UserName": "SatishKumar",
+      "Mobile": "8873566210",
+      "Email": "2019kumarsatish2019@gmail.com",
+      "Password": "Sudhir@123",
+      "id": 3
+    },
+    {
+      "UserName": "Sudhir",
+      "Mobile": "4477889944",
+      "Email": "ffyujh@gmail.com",
+      "Password": "1234567890",
+      "id": 4
+    },
+    {
+      "UserName": "Satish@1097",
+      "Mobile": "7762019670",
+      "Email": "satish@gmail.com",
+      "Password": "12345",
+      "id": 5
+    }
+  ],
+  "AdminData": [
+    {
+      "id": 1,
+      "AdminId": "Admin@0198",
+      "AdminPassword": "12345"
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "Product-Name": "",
+      "Category": "",
+      "Sub-Category": "",
+      "Description": "",
+      "Product-Image": ""
+    }
+  ]
+}

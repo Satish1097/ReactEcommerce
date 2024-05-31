@@ -1,0 +1,20 @@
+.EditProfile{
+    width: 30%;
+    height: 70vh;
+    background-color: darkcyan;
+    margin-left: 35%;
+    margin-top: 5vh;
+}
+.EditProfile h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: arial;
+}
+.EditProfile input{
+    width: 70%;
+    height: 8%;
+    margin-top: 5%;
+    margin-left: 15%;
+    border: 0px;
+    outline: 0;
+}

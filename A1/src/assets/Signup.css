@@ -1,0 +1,67 @@
+.signup{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+}
+
+
+.signup form{
+    height: 90%;
+    border-radius: 10px;
+    width: 30%;
+    background-color: antiquewhite;
+    margin: 2.5% 0 0 35%;
+
+}
+.signup  form h1{
+    text-align: center;
+    padding-top: 5%;
+}
+.signup form input{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    height: 8%;
+    border: 0px;
+    border-bottom: 2px solid blue;
+    background-color: #E8F0FE;
+}
+.signup form input:focus{
+    border: 0px;
+    outline: 0;
+}
+.signup  form .Sign{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 20px;
+}
+.signup form .Sign .AC{
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+@media screen and (max-device-width: 1024px){
+    .signup form{
+        width: 40%;
+        margin-left: 30%;
+    }
+
+}
+@media screen and (max-device-width: 768px){
+    .signup form{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-device-width: 600px){
+    .signup form{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-device-width: 425px){
+    .signup form{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
